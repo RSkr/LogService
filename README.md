@@ -175,3 +175,6 @@ Stworzone narzędzie rozwiązuje ten problem dostarczając kilka predefiniowanyc
 Narzędzie dostarcza rozmaite wyniki analizy logów co może okazać się krytyczne w przypadku ukrytych problemów z aplikacją
 
 Aplikacja została zbudowana w sposób umożliwiający jego dalszą rozbudowę. Narzędzie można rozbudować poprzez dodanie nowych parserów, nowych źródeł logów oraz dodanie interfejsu graficznego poprawiając wrażenia wizualne z użytkowania.
+
+## Twórcy
+Projekt realizowany przez : jbogunia, psmuga, RSkr
