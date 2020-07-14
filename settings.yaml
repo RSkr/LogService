@@ -1,0 +1,18 @@
+connections:
+  - host: localhost
+    path: test/logs/postgresql-10-main.log
+    type: postgres
+  - host: www
+    path: http://estelladandyk.kylos.pl/logger/file.txt
+    login: logger
+    password: logger_password
+    type: http
+  - host: ftp
+    path: ftp.estelladandyk.kylos.pl
+    login: logger@estelladandyk.kylos.pl
+    password: y^sAr~j29=pr
+    file: file.txt
+    type: http
+  - host: localhost
+    path: test/logs/dpkg.log
+    type: dpkg

@@ -1,0 +1,1483 @@
+2020-04-11 14:54:35.542 CEST [158] LOG:  listening on IPv6 address "::1", port 5432
+2020-04-11 14:54:35.542 CEST [158] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-11 14:54:35.543 CEST [158] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-11 14:54:35.543 CEST [158] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-11 14:54:35.558 CEST [158] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2020-04-11 14:54:36.046 CEST [159] LOG:  database system was shut down at 2020-04-08 18:34:29 CEST
+2020-04-11 14:54:36.245 CEST [158] LOG:  database system is ready to accept connections
+2020-04-11 14:54:36.819 CEST [166] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-04-11 14:54:50.831 CEST [197] postgres@postgres ERROR:  syntax error at or near "-" at character 21
+2020-04-11 14:54:50.831 CEST [197] postgres@postgres STATEMENT:  create database park-mate;
+2020-04-11 14:54:55.195 CEST [160] WARNING:  could not flush dirty data: Function not implemented
+2020-04-11 14:54:55.287 CEST [197] postgres@postgres WARNING:  could not flush dirty data: Function not implemented
+2020-04-11 14:55:43.591 CEST [197] postgres@postgres ERROR:  role "parl_mate" does not exist
+2020-04-11 14:55:43.591 CEST [197] postgres@postgres STATEMENT:  ALTER ROLE parl_mate SET client_encoding TO 'utf8';
+2020-04-11 15:02:18.638 CEST [459] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:09:04.930 CEST [482] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:22:39.210 CEST [637] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:23:15.958 CEST [656] park_mate@park_mate ERROR:  relation "parkmate_tickettype" does not exist at character 13
+2020-04-11 15:23:15.958 CEST [656] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_tickettype" ("name", "price", "time") VALUES ('Godzinny', 40.0, 1) RETURNING "parkmate_tickettype"."id"
+2020-04-11 15:23:16.159 CEST [656] park_mate@park_mate ERROR:  relation "parkmate_tickettype" does not exist at character 131
+2020-04-11 15:23:16.159 CEST [656] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time" FROM "parkmate_tickettype" LIMIT 21
+2020-04-11 15:24:15.622 CEST [644] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:25:39.929 CEST [670] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:26:11.172 CEST [702] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:26:44.883 CEST [707] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:27:22.074 CEST [726] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:27:52.818 CEST [735] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:28:12.492 CEST [742] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:29:29.442 CEST [750] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:29:53.858 CEST [768] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:30:52.248 CEST [777] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:31:30.150 CEST [783] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:32:10.711 CEST [792] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:32:14.644 CEST [802] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:33:14.964 CEST [806] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:33:19.348 CEST [816] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:33:29.116 CEST [820] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:50:59.744 CEST [824] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:52:06.307 CEST [869] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:54:36.293 CEST [883] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:55:18.214 CEST [902] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:55:25.942 CEST [908] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:57:11.760 CEST [912] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:58:55.936 CEST [920] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 15:59:41.464 CEST [927] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 16:02:28.891 CEST [933] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 16:04:07.207 CEST [942] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 16:05:21.924 CEST [949] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 16:05:31.819 CEST [955] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 16:17:32.740 CEST [1086] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 16:45:10.338 CEST [1160] park_mate@park_mate ERROR:  could not open extension control file "/usr/share/postgresql/10/extension/postgis.control": No such file or directory
+2020-04-11 16:45:10.338 CEST [1160] park_mate@park_mate STATEMENT:  CREATE EXTENSION postgis
+2020-04-11 16:48:11.185 CEST [1160] park_mate@park_mate ERROR:  permission denied to create extension "postgis"
+2020-04-11 16:48:11.185 CEST [1160] park_mate@park_mate HINT:  Must be superuser to create this extension.
+2020-04-11 16:48:11.185 CEST [1160] park_mate@park_mate STATEMENT:  CREATE EXTENSION postgis
+2020-04-11 16:53:48.954 CEST [1916] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 16:55:02.737 CEST [1923] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 16:58:06.347 CEST [1940] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 16:59:33.585 CEST [1958] park_mate@park_mate ERROR:  permission denied to create extension "postgis"
+2020-04-11 16:59:33.585 CEST [1958] park_mate@park_mate HINT:  Must be superuser to create this extension.
+2020-04-11 16:59:33.585 CEST [1958] park_mate@park_mate STATEMENT:  CREATE EXTENSION IF NOT EXISTS postgis
+2020-04-11 17:01:36.692 CEST [1967] park_mate@park_mate ERROR:  permission denied to create extension "postgis"
+2020-04-11 17:01:36.692 CEST [1967] park_mate@park_mate HINT:  Must be superuser to create this extension.
+2020-04-11 17:01:36.692 CEST [1967] park_mate@park_mate STATEMENT:  CREATE EXTENSION IF NOT EXISTS postgis
+2020-04-11 17:04:09.148 CEST [2006] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:05:20.946 CEST [2018] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:05:52.364 CEST [2033] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:06:03.696 CEST [2057] park_mate@park_mate ERROR:  null value in column "polygon" violates not-null constraint
+2020-04-11 17:06:03.696 CEST [2057] park_mate@park_mate DETAIL:  Failing row contains (1, test_zone, 23, null, 2020-04-11 15:06:03.68209+00).
+2020-04-11 17:06:03.696 CEST [2057] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_zone" ("name", "price", "polygon", "created_at") VALUES ('test_zone', 23, NULL, '2020-04-11T15:06:03.682090+00:00'::timestamptz) RETURNING "parkmate_zone"."id"
+2020-04-11 17:12:43.150 CEST [2050] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:13:17.665 CEST [2095] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:24:55.693 CEST [1160] park_mate@park_mate ERROR:  unknown GeoJSON type
+2020-04-11 17:24:55.693 CEST [1160] park_mate@park_mate STATEMENT:  SELECT st_astext(st_geomfromgeojson('"type": "Polygon",
+	        "coordinates": [
+	          [
+	            [
+	              19.92696762084961,
+	              50.05559580261758
+	            ],
+	            [
+	              19.92971420288086,
+	              50.051187033862554
+	            ],
+	            [
+	              19.935894012451172,
+	              50.05019500506983
+	            ],
+	            [
+	              19.94241714477539,
+	              50.05217904214879
+	            ],
+	            [
+	              19.952716827392578,
+	              50.05625708299451
+	            ],
+	            [
+	              19.952545166015625,
+	              50.06562424259453
+	            ],
+	            [
+	              19.946022033691403,
+	              50.071353838526875
+	            ],
+	            [
+	              19.936752319335938,
+	              50.07300647938297
+	            ],
+	            [
+	              19.931259155273438,
+	              50.07201490170391
+	            ],
+	            [
+	              19.926109313964844,
+	              50.06892986224525
+	            ],
+	            [
+	              19.923534393310547,
+	              50.062318395114296
+	            ],
+	            [
+	              19.92696762084961,
+	              50.05559580261758
+	            ]
+	          ]
+	        ]
+	      }'))
+2020-04-11 17:27:46.718 CEST [1160] park_mate@park_mate ERROR:  quoted object property name expected (at offset 72)
+2020-04-11 17:27:46.718 CEST [1160] park_mate@park_mate STATEMENT:  SELECT ST_AsText(ST_GeomFromGeoJSON('{"type":"Point","coordinates":[ 19.92696762084961, 50.05559580261758 ], [ 19.92971420288086, 50.051187033862554 ], [ 19.935894012451172, 50.05019500506983 ], [ 19.94241714477539, 50.05217904214879 ], [ 19.952716827392578, 50.05625708299451 ], [ 19.952545166015625, 50.06562424259453 ], [ 19.946022033691403, 50.071353838526875 ], [ 19.936752319335938, 50.07300647938297 ], [ 19.931259155273438, 50.07201490170391 ], [ 19.926109313964844, 50.06892986224525 ], [ 19.923534393310547, 50.062318395114296 ], [ 19.92696762084961, 50.05559580261758 ]}')) As wkt
+2020-04-11 17:27:58.059 CEST [1160] park_mate@park_mate ERROR:  quoted object property name expected (at offset 72)
+2020-04-11 17:27:58.059 CEST [1160] park_mate@park_mate STATEMENT:  SELECT ST_AsText(ST_GeomFromGeoJSON('{"type":"Point","coordinates":[ 19.92696762084961, 50.05559580261758 ], [ 19.92971420288086, 50.051187033862554 ], [ 19.935894012451172, 50.05019500506983 ], [ 19.94241714477539, 50.05217904214879 ], [ 19.952716827392578, 50.05625708299451 ], [ 19.952545166015625, 50.06562424259453 ], [ 19.946022033691403, 50.071353838526875 ], [ 19.936752319335938, 50.07300647938297 ], [ 19.931259155273438, 50.07201490170391 ], [ 19.926109313964844, 50.06892986224525 ], [ 19.923534393310547, 50.062318395114296 ], [ 19.92696762084961, 50.05559580261758 ]}')) As wkt
+2020-04-11 17:27:59.132 CEST [1160] park_mate@park_mate ERROR:  quoted object property name expected (at offset 72)
+2020-04-11 17:27:59.132 CEST [1160] park_mate@park_mate STATEMENT:  SELECT ST_AsText(ST_GeomFromGeoJSON('{"type":"Point","coordinates":[ 19.92696762084961, 50.05559580261758 ], [ 19.92971420288086, 50.051187033862554 ], [ 19.935894012451172, 50.05019500506983 ], [ 19.94241714477539, 50.05217904214879 ], [ 19.952716827392578, 50.05625708299451 ], [ 19.952545166015625, 50.06562424259453 ], [ 19.946022033691403, 50.071353838526875 ], [ 19.936752319335938, 50.07300647938297 ], [ 19.931259155273438, 50.07201490170391 ], [ 19.926109313964844, 50.06892986224525 ], [ 19.923534393310547, 50.062318395114296 ], [ 19.92696762084961, 50.05559580261758 ]}')) As wkt
+2020-04-11 17:27:59.906 CEST [1160] park_mate@park_mate ERROR:  quoted object property name expected (at offset 72)
+2020-04-11 17:27:59.906 CEST [1160] park_mate@park_mate STATEMENT:  SELECT ST_AsText(ST_GeomFromGeoJSON('{"type":"Point","coordinates":[ 19.92696762084961, 50.05559580261758 ], [ 19.92971420288086, 50.051187033862554 ], [ 19.935894012451172, 50.05019500506983 ], [ 19.94241714477539, 50.05217904214879 ], [ 19.952716827392578, 50.05625708299451 ], [ 19.952545166015625, 50.06562424259453 ], [ 19.946022033691403, 50.071353838526875 ], [ 19.936752319335938, 50.07300647938297 ], [ 19.931259155273438, 50.07201490170391 ], [ 19.926109313964844, 50.06892986224525 ], [ 19.923534393310547, 50.062318395114296 ], [ 19.92696762084961, 50.05559580261758 ]}')) As wkt
+2020-04-11 17:30:42.284 CEST [2061] park_mate@park_mate ERROR:  Geometry SRID (0) does not match column SRID (4326)
+2020-04-11 17:30:42.284 CEST [2061] park_mate@park_mate STATEMENT:  UPDATE public.parkmate_zone SET polygon = $1 WHERE id = $2
+2020-04-11 17:31:52.152 CEST [1160] park_mate@park_mate ERROR:  Input geometry has unknown (0) SRID
+2020-04-11 17:31:52.152 CEST [1160] park_mate@park_mate STATEMENT:  SELECT ST_TRANSFORM(ST_GeomFromGeoJSON('{"type":"Polygon","coordinates":[[19.92696762084961,50.05559580261758],[19.92971420288086,50.051187033862554],[19.935894012451172,50.05019500506983],[19.94241714477539,50.05217904214879],[19.952716827392578,50.05625708299451],[19.952545166015625,50.06562424259453],[19.946022033691403,50.071353838526875],[19.936752319335938,50.07300647938297],[19.931259155273438,50.07201490170391],[19.926109313964844,50.06892986224525],[19.923534393310547,50.062318395114296],[19.92696762084961,50.05559580261758]]}'), 4326) As wkt
+2020-04-11 17:32:29.867 CEST [2061] park_mate@park_mate ERROR:  Geometry has Z dimension but column does not
+2020-04-11 17:32:29.867 CEST [2061] park_mate@park_mate STATEMENT:  UPDATE public.parkmate_zone SET polygon = $1 WHERE id = $2
+2020-04-11 17:37:33.903 CEST [2106] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:38:07.292 CEST [2186] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:39:39.075 CEST [2206] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:39:58.088 CEST [2212] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:40:15.386 CEST [2219] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:41:29.124 CEST [2226] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:43:17.190 CEST [2257] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:45:56.823 CEST [2283] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:46:57.529 CEST [2289] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:47:32.743 CEST [2297] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:48:35.484 CEST [2306] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:51:35.777 CEST [2337] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:52:11.860 CEST [2346] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-11 17:54:47.229 CEST [2363] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:09:16.700 CEST [3529] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:09:52.296 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.296 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:09:52.368 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.368 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:09:52.369 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.369 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:09:52.369 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.369 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:09:52.370 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.370 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:09:52.370 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.370 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:09:52.371 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.371 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:09:52.372 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.372 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:09:52.373 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.373 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:09:52.373 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.373 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:09:52.374 CEST [3551] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:09:52.374 CEST [3551] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:10:36.187 CEST [3544] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:11:24.754 CEST [3559] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:11:48.866 CEST [3572] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:12:00.304 CEST [3579] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:12:33.518 CEST [3585] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:12:42.178 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.178 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:12:42.210 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.210 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:12:42.211 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.211 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:12:42.212 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.212 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:12:42.213 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.213 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:12:42.214 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.214 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:12:42.216 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.216 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:12:42.217 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.217 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:12:42.217 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.217 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:12:42.218 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.218 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:12:42.219 CEST [3607] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:12:42.219 CEST [3607] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:13:06.968 CEST [3600] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:13:06.968 CEST [3617] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:13:13.312 CEST [3630] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:13.312 CEST [3630] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" ORDER BY "parkmate_tickettype"."id" DESC
+2020-04-12 13:13:13.393 CEST [3630] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:13.393 CEST [3630] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" ORDER BY "parkmate_tickettype"."id" DESC LIMIT 21
+2020-04-12 13:13:13.394 CEST [3630] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:13.394 CEST [3630] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" ORDER BY "parkmate_tickettype"."id" DESC LIMIT 21
+2020-04-12 13:13:13.396 CEST [3630] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:13.396 CEST [3630] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" ORDER BY "parkmate_tickettype"."id" DESC LIMIT 21
+2020-04-12 13:13:29.974 CEST [3623] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:13:36.883 CEST [3651] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:13:36.883 CEST [3651] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_140357271422720_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:13:36.884 CEST [3651] park_mate@park_mate ERROR:  cursor "_django_curs_140357271422720_sync_1" does not exist
+2020-04-12 13:13:36.884 CEST [3651] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_140357271422720_sync_1"
+2020-04-12 13:13:37.073 CEST [3651] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:37.073 CEST [3651] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:13:37.074 CEST [3651] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:37.074 CEST [3651] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:13:45.602 CEST [3655] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:13:45.602 CEST [3655] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_140357262182144_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:13:45.604 CEST [3655] park_mate@park_mate ERROR:  cursor "_django_curs_140357262182144_sync_1" does not exist
+2020-04-12 13:13:45.604 CEST [3655] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_140357262182144_sync_1"
+2020-04-12 13:13:45.751 CEST [3655] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:45.751 CEST [3655] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:13:45.753 CEST [3655] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:45.753 CEST [3655] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:13:46.693 CEST [3656] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:13:46.693 CEST [3656] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_140357262182144_sync_2" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:13:46.694 CEST [3656] park_mate@park_mate ERROR:  cursor "_django_curs_140357262182144_sync_2" does not exist
+2020-04-12 13:13:46.694 CEST [3656] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_140357262182144_sync_2"
+2020-04-12 13:13:46.840 CEST [3656] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:46.840 CEST [3656] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:13:46.843 CEST [3656] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:46.843 CEST [3656] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:13:47.178 CEST [3658] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:13:47.178 CEST [3658] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_140357048141568_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:13:47.179 CEST [3658] park_mate@park_mate ERROR:  cursor "_django_curs_140357048141568_sync_1" does not exist
+2020-04-12 13:13:47.179 CEST [3658] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_140357048141568_sync_1"
+2020-04-12 13:13:47.364 CEST [3658] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:47.364 CEST [3658] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:13:47.367 CEST [3658] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:13:47.367 CEST [3658] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:08.038 CEST [3661] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:14:08.038 CEST [3661] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_140357271422720_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:14:08.039 CEST [3661] park_mate@park_mate ERROR:  cursor "_django_curs_140357271422720_sync_1" does not exist
+2020-04-12 13:14:08.039 CEST [3661] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_140357271422720_sync_1"
+2020-04-12 13:14:08.221 CEST [3661] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:08.221 CEST [3661] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:08.223 CEST [3661] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:08.223 CEST [3661] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:08.668 CEST [3663] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:14:08.668 CEST [3663] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_140357048141568_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:14:08.670 CEST [3663] park_mate@park_mate ERROR:  cursor "_django_curs_140357048141568_sync_1" does not exist
+2020-04-12 13:14:08.670 CEST [3663] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_140357048141568_sync_1"
+2020-04-12 13:14:08.881 CEST [3663] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:08.881 CEST [3663] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:08.885 CEST [3663] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:08.885 CEST [3663] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:09.400 CEST [3642] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:14:12.448 CEST [3673] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:14:12.448 CEST [3673] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_140625993533184_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:14:12.455 CEST [3673] park_mate@park_mate ERROR:  cursor "_django_curs_140625993533184_sync_1" does not exist
+2020-04-12 13:14:12.455 CEST [3673] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_140625993533184_sync_1"
+2020-04-12 13:14:12.457 CEST [3674] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:14:12.457 CEST [3674] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_140625985079040_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:14:12.458 CEST [3674] park_mate@park_mate ERROR:  cursor "_django_curs_140625985079040_sync_1" does not exist
+2020-04-12 13:14:12.458 CEST [3674] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_140625985079040_sync_1"
+2020-04-12 13:14:12.915 CEST [3674] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:12.915 CEST [3674] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:12.922 CEST [3674] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:12.922 CEST [3674] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:12.934 CEST [3673] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:12.934 CEST [3673] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:12.939 CEST [3673] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:12.939 CEST [3673] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:15.741 CEST [3676] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:14:15.741 CEST [3676] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_140625985079040_sync_2" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:14:15.742 CEST [3676] park_mate@park_mate ERROR:  cursor "_django_curs_140625985079040_sync_2" does not exist
+2020-04-12 13:14:15.742 CEST [3676] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_140625985079040_sync_2"
+2020-04-12 13:14:15.834 CEST [3676] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:15.834 CEST [3676] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:15.834 CEST [3676] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:15.834 CEST [3676] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:16.492 CEST [3670] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:14:43.032 CEST [3682] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:14:45.287 CEST [3691] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:14:45.287 CEST [3691] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_139833581700864_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:14:45.288 CEST [3691] park_mate@park_mate ERROR:  cursor "_django_curs_139833581700864_sync_1" does not exist
+2020-04-12 13:14:45.288 CEST [3691] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_139833581700864_sync_1"
+2020-04-12 13:14:45.396 CEST [3691] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:45.396 CEST [3691] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:45.397 CEST [3691] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:45.397 CEST [3691] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:46.453 CEST [3694] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:14:46.453 CEST [3694] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_139833581700864_sync_2" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:14:46.453 CEST [3694] park_mate@park_mate ERROR:  cursor "_django_curs_139833581700864_sync_2" does not exist
+2020-04-12 13:14:46.453 CEST [3694] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_139833581700864_sync_2"
+2020-04-12 13:14:46.533 CEST [3694] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:46.533 CEST [3694] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:46.534 CEST [3694] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:46.534 CEST [3694] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:52.812 CEST [3699] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:14:52.812 CEST [3699] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_139833581700864_sync_3" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:14:52.812 CEST [3699] park_mate@park_mate ERROR:  cursor "_django_curs_139833581700864_sync_3" does not exist
+2020-04-12 13:14:52.812 CEST [3699] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_139833581700864_sync_3"
+2020-04-12 13:14:52.896 CEST [3699] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:52.896 CEST [3699] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:14:52.897 CEST [3699] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:14:52.897 CEST [3699] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:15:10.345 CEST [3719] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:15:10.345 CEST [3719] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_139833550767872_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:15:10.346 CEST [3719] park_mate@park_mate ERROR:  cursor "_django_curs_139833550767872_sync_1" does not exist
+2020-04-12 13:15:10.346 CEST [3719] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_139833550767872_sync_1"
+2020-04-12 13:15:10.421 CEST [3719] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:15:10.421 CEST [3719] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:15:10.423 CEST [3719] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:15:10.423 CEST [3719] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:17:33.508 CEST [158] LOG:  received fast shutdown request
+2020-04-12 13:17:33.522 CEST [158] LOG:  aborting any active transactions
+2020-04-12 13:17:33.523 CEST [3689] park_mate@park_mate FATAL:  terminating connection due to administrator command
+2020-04-12 13:17:33.553 CEST [158] LOG:  worker process: logical replication launcher (PID 165) exited with exit code 1
+2020-04-12 13:17:33.553 CEST [160] LOG:  shutting down
+2020-04-12 13:17:33.749 CEST [158] LOG:  database system is shut down
+2020-04-12 13:17:34.171 CEST [3777] LOG:  listening on IPv6 address "::1", port 5432
+2020-04-12 13:17:34.172 CEST [3777] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-12 13:17:34.172 CEST [3777] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-12 13:17:34.172 CEST [3777] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-12 13:17:34.191 CEST [3777] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2020-04-12 13:17:34.297 CEST [3778] LOG:  database system was shut down at 2020-04-12 13:17:33 CEST
+2020-04-12 13:17:34.441 CEST [3777] LOG:  database system is ready to accept connections
+2020-04-12 13:17:35.006 CEST [3785] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-04-12 13:17:42.492 CEST [3799] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 113
+2020-04-12 13:17:42.492 CEST [3799] park_mate@park_mate STATEMENT:  DECLARE "_django_curs_139833550767872_sync_1" NO SCROLL CURSOR WITH HOLD FOR SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype"
+2020-04-12 13:17:42.492 CEST [3799] park_mate@park_mate ERROR:  cursor "_django_curs_139833550767872_sync_1" does not exist
+2020-04-12 13:17:42.492 CEST [3799] park_mate@park_mate STATEMENT:  CLOSE "_django_curs_139833550767872_sync_1"
+2020-04-12 13:17:42.583 CEST [3799] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:17:42.583 CEST [3799] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:17:42.584 CEST [3799] park_mate@park_mate ERROR:  column parkmate_tickettype.user_id does not exist at character 36
+2020-04-12 13:17:42.584 CEST [3799] park_mate@park_mate STATEMENT:  SELECT "parkmate_tickettype"."id", "parkmate_tickettype"."user_id", "parkmate_tickettype"."name", "parkmate_tickettype"."price", "parkmate_tickettype"."time", "parkmate_tickettype"."created_at" FROM "parkmate_tickettype" LIMIT 21
+2020-04-12 13:20:22.513 CEST [3823] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:21:10.470 CEST [3872] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:22:37.538 CEST [3779] WARNING:  could not flush dirty data: Function not implemented
+2020-04-12 13:24:12.383 CEST [3888] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:25:18.918 CEST [3929] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:27:09.083 CEST [3945] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:29:46.172 CEST [3962] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:29:54.367 CEST [3975] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:31:17.806 CEST [3981] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:32:57.747 CEST [3997] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:33:54.535 CEST [4013] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:35:57.310 CEST [4029] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:38:59.057 CEST [4062] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:41:17.604 CEST [4074] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:41:54.840 CEST [4089] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:42:13.050 CEST [4096] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:42:41.681 CEST [4103] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:42:53.968 CEST [4113] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:43:31.242 CEST [4121] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:44:23.837 CEST [4142] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:45:29.525 CEST [4153] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:46:40.985 CEST [4166] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:47:01.822 CEST [4178] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:47:51.488 CEST [4184] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:48:25.462 CEST [4192] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:49:54.467 CEST [4199] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:49:56.123 CEST [4211] park_mate@park_mate ERROR:  null value in column "type_id" violates not-null constraint
+2020-04-12 13:49:56.123 CEST [4211] park_mate@park_mate DETAIL:  Failing row contains (3, asdasfd, null, 2020-04-12 11:49:56.121663+00, asdasd).
+2020-04-12 13:49:56.123 CEST [4211] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_ticket" ("plate", "type_id", "user_id", "created_at") VALUES ('asdasfd', NULL, 'asdasd', '2020-04-12T11:49:56.121663+00:00'::timestamptz) RETURNING "parkmate_ticket"."id"
+2020-04-12 13:50:21.062 CEST [4209] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:50:51.141 CEST [4218] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:51:56.429 CEST [4226] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:53:00.473 CEST [4241] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:53:15.232 CEST [4249] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:56:26.141 CEST [4256] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 13:59:17.592 CEST [4281] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:00:55.784 CEST [4296] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:01:58.529 CEST [4304] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:03:18.825 CEST [4312] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:04:41.423 CEST [4321] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:14:04.382 CEST [109] LOG:  listening on IPv6 address "::1", port 5432
+2020-04-12 14:14:04.382 CEST [109] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-12 14:14:04.382 CEST [109] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-12 14:14:04.382 CEST [109] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-12 14:14:04.403 CEST [109] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2020-04-12 14:14:04.776 CEST [110] LOG:  database system was interrupted; last known up at 2020-04-12 13:52:35 CEST
+2020-04-12 14:14:04.778 CEST [110] WARNING:  could not flush dirty data: Function not implemented
+2020-04-12 14:14:11.194 CEST [120] park_mate@park_mate FATAL:  the database system is starting up
+2020-04-12 14:14:11.227 CEST [121] park_mate@park_mate FATAL:  the database system is starting up
+2020-04-12 14:14:12.462 CEST [110] LOG:  database system was not properly shut down; automatic recovery in progress
+2020-04-12 14:14:12.466 CEST [110] LOG:  redo starts at 0/2898D00
+2020-04-12 14:14:12.466 CEST [110] LOG:  invalid record length at 0/2898DE0: wanted 24, got 0
+2020-04-12 14:14:12.466 CEST [110] LOG:  redo done at 0/2898DA8
+2020-04-12 14:14:12.584 CEST [109] LOG:  database system is ready to accept connections
+2020-04-12 14:14:13.195 CEST [128] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-04-12 14:16:15.719 CEST [149] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:16:17.871 CEST [179] park_mate@park_mate ERROR:  relation "parkmate_validatedticket" does not exist at character 35
+2020-04-12 14:16:17.871 CEST [179] park_mate@park_mate STATEMENT:  SELECT COUNT(*) AS "__count" FROM "parkmate_validatedticket" INNER JOIN "parkmate_ticket" ON ("parkmate_validatedticket"."ticket_id" = "parkmate_ticket"."id") WHERE "parkmate_ticket"."plate" = 'sadasasdasd'
+2020-04-12 14:16:17.950 CEST [179] park_mate@park_mate ERROR:  relation "parkmate_validatedticket" does not exist at character 236
+2020-04-12 14:16:17.950 CEST [179] park_mate@park_mate STATEMENT:  SELECT "parkmate_validatedticket"."id", "parkmate_validatedticket"."user_id", "parkmate_validatedticket"."plate", "parkmate_validatedticket"."ticket_id", "parkmate_validatedticket"."valid", "parkmate_validatedticket"."created_at" FROM "parkmate_validatedticket" INNER JOIN "parkmate_ticket" ON ("parkmate_validatedticket"."ticket_id" = "parkmate_ticket"."id") WHERE "parkmate_ticket"."plate" = 'sadasasdasd' LIMIT 21
+2020-04-12 14:16:17.951 CEST [179] park_mate@park_mate ERROR:  relation "parkmate_validatedticket" does not exist at character 236
+2020-04-12 14:16:17.951 CEST [179] park_mate@park_mate STATEMENT:  SELECT "parkmate_validatedticket"."id", "parkmate_validatedticket"."user_id", "parkmate_validatedticket"."plate", "parkmate_validatedticket"."ticket_id", "parkmate_validatedticket"."valid", "parkmate_validatedticket"."created_at" FROM "parkmate_validatedticket" INNER JOIN "parkmate_ticket" ON ("parkmate_validatedticket"."ticket_id" = "parkmate_ticket"."id") WHERE "parkmate_ticket"."plate" = 'sadasasdasd' LIMIT 21
+2020-04-12 14:23:51.486 CEST [177] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:36:24.955 CEST [283] park_mate@park_mate ERROR:  column "zone_id" contains null values
+2020-04-12 14:36:24.955 CEST [283] park_mate@park_mate STATEMENT:  ALTER TABLE "parkmate_ticket" ADD COLUMN "zone_id" integer NOT NULL CONSTRAINT "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" REFERENCES "parkmate_zone"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" IMMEDIATE
+2020-04-12 14:36:38.751 CEST [277] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:36:55.053 CEST [300] park_mate@park_mate ERROR:  column "zone_id" contains null values
+2020-04-12 14:36:55.053 CEST [300] park_mate@park_mate STATEMENT:  ALTER TABLE "parkmate_ticket" ADD COLUMN "zone_id" integer NOT NULL CONSTRAINT "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" REFERENCES "parkmate_zone"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" IMMEDIATE
+2020-04-12 14:37:05.953 CEST [289] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:37:45.641 CEST [323] park_mate@park_mate ERROR:  column "zone_id" contains null values
+2020-04-12 14:37:45.641 CEST [323] park_mate@park_mate STATEMENT:  ALTER TABLE "parkmate_ticket" ADD COLUMN "zone_id" integer NOT NULL CONSTRAINT "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" REFERENCES "parkmate_zone"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" IMMEDIATE
+2020-04-12 14:38:58.710 CEST [330] park_mate@park_mate ERROR:  column "zone_id" contains null values
+2020-04-12 14:38:58.710 CEST [330] park_mate@park_mate STATEMENT:  ALTER TABLE "parkmate_ticket" ADD COLUMN "zone_id" integer NOT NULL CONSTRAINT "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" REFERENCES "parkmate_zone"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" IMMEDIATE
+2020-04-12 14:39:15.691 CEST [122] WARNING:  could not flush dirty data: Function not implemented
+2020-04-12 14:39:51.393 CEST [337] park_mate@park_mate ERROR:  column "zone_id" contains null values
+2020-04-12 14:39:51.393 CEST [337] park_mate@park_mate STATEMENT:  ALTER TABLE "parkmate_ticket" ADD COLUMN "zone_id" integer NOT NULL CONSTRAINT "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" REFERENCES "parkmate_zone"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" IMMEDIATE
+2020-04-12 14:40:20.892 CEST [312] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:40:23.655 CEST [349] park_mate@park_mate ERROR:  column "zone_id" contains null values
+2020-04-12 14:40:23.655 CEST [349] park_mate@park_mate STATEMENT:  ALTER TABLE "parkmate_ticket" ADD COLUMN "zone_id" integer NOT NULL CONSTRAINT "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" REFERENCES "parkmate_zone"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" IMMEDIATE
+2020-04-12 14:40:41.402 CEST [344] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:41:18.291 CEST [367] park_mate@park_mate ERROR:  column "zone_id" contains null values
+2020-04-12 14:41:18.291 CEST [367] park_mate@park_mate STATEMENT:  ALTER TABLE "parkmate_ticket" ADD COLUMN "zone_id" integer NOT NULL CONSTRAINT "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" REFERENCES "parkmate_zone"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "parkmate_ticket_zone_id_1503e0d6_fk_parkmate_zone_id" IMMEDIATE
+2020-04-12 14:41:24.335 CEST [355] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:42:03.675 CEST [373] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:42:22.815 CEST [383] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:43:48.137 CEST [402] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:44:53.391 CEST [419] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:46:36.093 CEST [430] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:47:18.212 CEST [465] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:47:30.587 CEST [473] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:48:07.783 CEST [479] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:49:12.328 CEST [486] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:49:39.578 CEST [509] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:50:06.827 CEST [528] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:50:20.715 CEST [544] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:50:43.007 CEST [556] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:50:58.158 CEST [565] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:55:43.823 CEST [586] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:56:24.357 CEST [602] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:56:28.040 CEST [609] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:57:09.446 CEST [616] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:57:19.887 CEST [627] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:57:39.503 CEST [634] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:57:58.560 CEST [642] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:58:26.519 CEST [649] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:59:03.418 CEST [658] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:59:40.315 CEST [665] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 14:59:54.415 CEST [674] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:00:58.595 CEST [681] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:01:02.102 CEST [692] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:01:15.809 CEST [700] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:01:57.235 CEST [710] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:02:02.422 CEST [720] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:02:09.317 CEST [726] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:04:06.779 CEST [732] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:05:34.558 CEST [751] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:06:13.209 CEST [765] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:06:16.852 CEST [771] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:07:27.844 CEST [778] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:07:57.642 CEST [794] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:08:26.971 CEST [810] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:10:21.535 CEST [817] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:10:23.208 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.208 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf'
+2020-04-12 15:10:23.248 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.248 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:23.248 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.248 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:23.249 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.249 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:23.250 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.250 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:23.251 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.251 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:23.252 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.252 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:23.253 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.253 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:23.255 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.255 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:23.256 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.256 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:23.257 CEST [829] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:23.257 CEST [829] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.220 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.220 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf'
+2020-04-12 15:10:24.234 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.234 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.235 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.235 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.236 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.236 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.237 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.237 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.238 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.238 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.239 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.239 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.240 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.240 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.242 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.242 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.243 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.243 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:24.244 CEST [830] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:10:24.244 CEST [830] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:10:48.862 CEST [827] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:12:59.548 CEST [844] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-12 15:13:07.775 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.775 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf'
+2020-04-12 15:13:07.790 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.790 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:07.791 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.791 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:07.792 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.792 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:07.792 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.792 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:07.793 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.793 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:07.793 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.793 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:07.794 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.794 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:07.795 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.795 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:07.795 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.795 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:07.796 CEST [853] park_mate@park_mate ERROR:  column parkmate_ticket.localization does not exist at character 117
+2020-04-12 15:13:07.796 CEST [853] park_mate@park_mate STATEMENT:  SELECT "parkmate_ticket"."id", "parkmate_ticket"."user_id", "parkmate_ticket"."plate", "parkmate_ticket"."zone_id", "parkmate_ticket"."localization"::bytea, "parkmate_ticket"."hours", "parkmate_ticket"."created_at" FROM "parkmate_ticket" WHERE "parkmate_ticket"."user_id" = 'fsdfsdf' LIMIT 21
+2020-04-12 15:13:34.736 CEST [851] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:53:33.330 CEST [873] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:53:33.504 CEST [2373] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:54:53.694 CEST [2573] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:54:53.700 CEST [2574] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:55:02.134 CEST [2588] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:55:02.162 CEST [2587] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:55:35.770 CEST [2600] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:55:35.837 CEST [2601] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:56:16.076 CEST [2614] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 13:56:16.088 CEST [2613] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 17:38:33.392 CEST [2633] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-13 17:38:35.344 CEST [2632] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 10:45:34.822 CEST [120] LOG:  listening on IPv6 address "::1", port 5432
+2020-04-18 10:45:34.822 CEST [120] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-18 10:45:34.822 CEST [120] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-18 10:45:34.822 CEST [120] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-04-18 10:45:34.832 CEST [120] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2020-04-18 10:45:35.089 CEST [121] LOG:  database system was interrupted; last known up at 2020-04-12 15:14:15 CEST
+2020-04-18 10:45:35.091 CEST [121] WARNING:  could not flush dirty data: Function not implemented
+2020-04-18 10:45:40.144 CEST [121] LOG:  database system was not properly shut down; automatic recovery in progress
+2020-04-18 10:45:40.148 CEST [121] LOG:  redo starts at 0/29855D8
+2020-04-18 10:45:40.148 CEST [121] LOG:  invalid record length at 0/29856B8: wanted 24, got 0
+2020-04-18 10:45:40.148 CEST [121] LOG:  redo done at 0/2985680
+2020-04-18 10:45:40.238 CEST [120] LOG:  database system is ready to accept connections
+2020-04-18 10:45:40.783 CEST [128] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-04-18 10:46:49.593 CEST [149] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 10:47:07.211 CEST [170] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 11:11:51.798 CEST [182] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 11:19:41.584 CEST [251] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 11:25:40.204 CEST [313] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 11:28:52.760 CEST [322] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 11:29:06.578 CEST [338] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 11:29:32.197 CEST [344] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 11:30:41.024 CEST [122] WARNING:  could not flush dirty data: Function not implemented
+2020-04-18 11:55:50.286 CEST [356] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 11:56:24.088 CEST [483] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 11:58:09.553 CEST [492] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:16:24.754 CEST [531] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.842 CEST [635] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.842 CEST [637] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.842 CEST [636] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.842 CEST [639] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.842 CEST [641] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.842 CEST [638] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.842 CEST [640] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.852 CEST [642] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.852 CEST [643] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.853 CEST [644] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.855 CEST [646] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:36.857 CEST [647] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:24:43.374 CEST [649] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:32:43.375 CEST [652] park_mate@park_mate ERROR:  lwpoly_from_lwlines: shell must be closed
+2020-04-18 12:32:43.375 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_MakePolygon( ST_GeomFromText('LINESTRING(-72.2817135 42.9326102,-72.2790956 42.9292481,-72.2759199 42.9329559,-72.2816706 42.9325160)'))
+2020-04-18 12:32:59.763 CEST [652] park_mate@park_mate ERROR:  lwpoly_from_lwlines: shell must be closed
+2020-04-18 12:32:59.763 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_MakePolygon( ST_GeomFromText('LINESTRING(-72.2817135 42.9326102,-72.2790956 42.9292481,-72.2759199 42.9329559,-72.2816706 42.9325160)'))
+2020-04-18 12:33:54.269 CEST [652] park_mate@park_mate ERROR:  lwpoly_from_lwlines: shell must be closed
+2020-04-18 12:33:54.269 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_MakePolygon( ST_GeomFromText('LINESTRING(-72.2804689 42.9270249,-72.2794819 42.9269444,-72.2796428 42.9274452,-72.2804689 42.9270269)'))
+2020-04-18 12:34:19.446 CEST [663] park_mate@park_mate ERROR:  Geometry SRID (0) does not match column SRID (4326)
+2020-04-18 12:34:19.446 CEST [663] park_mate@park_mate STATEMENT:  UPDATE public.parkmate_zone SET polygon = $1 WHERE id = $2
+2020-04-18 12:39:13.147 CEST [596] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:39:43.562 CEST [701] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:42:24.149 CEST [722] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:43:04.022 CEST [730] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:43:33.212 CEST [737] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:43:43.455 CEST [744] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:43:57.484 CEST [750] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:44:25.069 CEST [757] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:45:10.130 CEST [765] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:46:44.347 CEST [773] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:47:25.131 CEST [790] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:47:58.055 CEST [799] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:48:05.034 CEST [808] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:49:15.085 CEST [816] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:49:25.760 CEST [828] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:49:40.172 CEST [840] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:50:12.316 CEST [847] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:51:32.700 CEST [857] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:52:23.677 CEST [870] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 12:53:04.965 CEST [878] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:01:49.562 CEST [886] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:02:01.416 CEST [914] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:02:15.214 CEST [920] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:02:30.738 CEST [931] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:08:45.752 CEST [969] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:08:54.371 CEST [980] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:09:12.759 CEST [986] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:09:16.346 CEST [997] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:10:47.346 CEST [1004] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:11:18.077 CEST [1015] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:11:47.090 CEST [1022] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:11:53.908 CEST [1029] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:12:11.841 CEST [1035] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:12:20.666 CEST [1048] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:13:44.837 CEST [1057] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:14:47.196 CEST [1065] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:15:40.123 CEST [1078] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:15:55.788 CEST [1089] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:16:51.733 CEST [1099] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:18:27.131 CEST [1107] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:18:57.482 CEST [1120] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:19:06.043 CEST [1131] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:19:14.681 CEST [1139] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:19:21.586 CEST [1147] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:19:25.121 CEST [1157] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:19:32.067 CEST [1163] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:19:39.007 CEST [1172] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:20:13.242 CEST [1181] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:20:26.754 CEST [1191] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:20:37.206 CEST [1200] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:22:13.626 CEST [1210] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:23:56.861 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:23:56.861 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' as points From parkmate_zone
+2020-04-18 13:24:04.979 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:04.979 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' as points From parkmate_zone
+2020-04-18 13:24:22.624 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:22.624 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone
+2020-04-18 13:24:57.622 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:57.622 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:24:58.207 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:58.207 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:24:58.372 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:58.372 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:24:58.542 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:58.542 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:24:58.711 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:58.711 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:24:58.878 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:58.878 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:24:59.057 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:59.057 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:24:59.578 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:59.578 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:24:59.694 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:59.694 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:24:59.869 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:24:59.869 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:00.030 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:00.030 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:00.189 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:00.189 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:00.339 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:00.339 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:00.491 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:00.491 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:00.626 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:00.626 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:00.786 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:00.786 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:00.928 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:00.928 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:01.074 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:01.074 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:01.259 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:01.259 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:01.809 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:01.809 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:02.002 CEST [652] park_mate@park_mate ERROR:  Shell is not a line
+2020-04-18 13:25:02.002 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(ST_POLYGON(polygon::geometry, 4326)):: json->'coordinates' FROM parkmate_zone where id = 2
+2020-04-18 13:25:19.270 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 28
+2020-04-18 13:25:19.270 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon:: json->'coordinates') FROM parkmate_zone where id = 2
+2020-04-18 13:25:19.977 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 28
+2020-04-18 13:25:19.977 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon:: json->'coordinates') FROM parkmate_zone where id = 2
+2020-04-18 13:25:20.170 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 28
+2020-04-18 13:25:20.170 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon:: json->'coordinates') FROM parkmate_zone where id = 2
+2020-04-18 13:25:20.390 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 28
+2020-04-18 13:25:20.390 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon:: json->'coordinates') FROM parkmate_zone where id = 2
+2020-04-18 13:26:01.965 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 38
+2020-04-18 13:26:01.965 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon::geometry:: json->'coordinates') FROM parkmate_zone where id = 2
+2020-04-18 13:26:02.697 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 38
+2020-04-18 13:26:02.697 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon::geometry:: json->'coordinates') FROM parkmate_zone where id = 2
+2020-04-18 13:26:03.025 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 38
+2020-04-18 13:26:03.025 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon::geometry:: json->'coordinates') FROM parkmate_zone where id = 2
+2020-04-18 13:26:03.230 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 38
+2020-04-18 13:26:03.230 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon::geometry:: json->'coordinates') FROM parkmate_zone where id = 2
+2020-04-18 13:26:03.416 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 38
+2020-04-18 13:26:03.416 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon::geometry:: json->'coordinates') FROM parkmate_zone where id = 2
+2020-04-18 13:26:27.762 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 38
+2020-04-18 13:26:27.762 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon::geometry:: json->'coordinates') FROM parkmate_zone
+2020-04-18 13:26:28.513 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 38
+2020-04-18 13:26:28.513 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon::geometry:: json->'coordinates') FROM parkmate_zone
+2020-04-18 13:26:28.839 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 38
+2020-04-18 13:26:28.839 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon::geometry:: json->'coordinates') FROM parkmate_zone
+2020-04-18 13:26:29.020 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 38
+2020-04-18 13:26:29.020 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon::geometry:: json->'coordinates') FROM parkmate_zone
+2020-04-18 13:26:35.726 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 28
+2020-04-18 13:26:35.726 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon:: json->'coordinates') FROM parkmate_zone
+2020-04-18 13:26:36.288 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 28
+2020-04-18 13:26:36.288 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon:: json->'coordinates') FROM parkmate_zone
+2020-04-18 13:26:36.458 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 28
+2020-04-18 13:26:36.458 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon:: json->'coordinates') FROM parkmate_zone
+2020-04-18 13:26:36.647 CEST [652] park_mate@park_mate ERROR:  cannot cast type geometry to json at character 28
+2020-04-18 13:26:36.647 CEST [652] park_mate@park_mate STATEMENT:  SELECT ST_AsGeoJSON(polygon:: json->'coordinates') FROM parkmate_zone
+2020-04-18 13:27:48.111 CEST [1242] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:28:17.369 CEST [1259] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:28:39.427 CEST [1266] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:28:58.203 CEST [1275] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:29:13.697 CEST [1289] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:29:59.755 CEST [1295] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:30:14.119 CEST [1305] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:30:36.800 CEST [1317] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:30:52.230 CEST [1333] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:32:07.912 CEST [1343] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:33:17.185 CEST [1351] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:33:29.833 CEST [1376] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:33:43.858 CEST [1386] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:34:39.461 CEST [1401] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:34:52.112 CEST [1408] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:36:17.257 CEST [1419] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:47:09.005 CEST [1430] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:47:12.623 CEST [1462] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:47:55.986 CEST [1468] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 13:56:03.059 CEST [1506] park_mate@park_mate ERROR:  invalid GeoJson representation
+2020-04-18 13:56:03.059 CEST [1506] park_mate@park_mate STATEMENT:  select st_geomfromgeojson('{
+	  "type": "FeatureCollection",
+	  "features": [
+	    {
+	      "type": "Feature",
+	      "properties": {},
+	      "geometry": {
+	        "type": "Polygon",
+	        "coordinates": [
+	          [
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ],
+	            [
+	              19.92623805999756,
+	              50.06921909312515
+	            ],
+	            [
+	              19.925336837768555,
+	              50.06990773105665
+	            ],
+	            [
+	              19.921152591705322,
+	              50.071353838526875
+	            ],
+	            [
+	              19.915573596954346,
+	              50.07293762048441
+	            ],
+	            [
+	              19.914522171020508,
+	              50.071188571308745
+	            ],
+	            [
+	              19.913620948791504,
+	              50.06797951993012
+	            ],
+	            [
+	              19.914672374725342,
+	              50.06764896166725
+	            ],
+	            [
+	              19.918041229248047,
+	              50.06766273497367
+	            ],
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ]
+	          ]
+	        ]
+	      }
+	    }
+	  ]
+	}')
+2020-04-18 13:56:25.081 CEST [1506] park_mate@park_mate ERROR:  array value separator ',' expected (at offset 1155)
+2020-04-18 13:56:25.081 CEST [1506] park_mate@park_mate STATEMENT:  select st_geomfromgeojson('{
+	  "type": "FeatureCollection",
+	  "features": [
+	    {
+	        "type": "Polygon",
+	        "coordinates": [
+	          [
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ],
+	            [
+	              19.92623805999756,
+	              50.06921909312515
+	            ],
+	            [
+	              19.925336837768555,
+	              50.06990773105665
+	            ],
+	            [
+	              19.921152591705322,
+	              50.071353838526875
+	            ],
+	            [
+	              19.915573596954346,
+	              50.07293762048441
+	            ],
+	            [
+	              19.914522171020508,
+	              50.071188571308745
+	            ],
+	            [
+	              19.913620948791504,
+	              50.06797951993012
+	            ],
+	            [
+	              19.914672374725342,
+	              50.06764896166725
+	            ],
+	            [
+	              19.918041229248047,
+	              50.06766273497367
+	            ],
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ]
+	          ]
+	        ]
+	      }
+	    }
+	  ]
+	}')
+2020-04-18 13:56:25.791 CEST [1506] park_mate@park_mate ERROR:  array value separator ',' expected (at offset 1155)
+2020-04-18 13:56:25.791 CEST [1506] park_mate@park_mate STATEMENT:  select st_geomfromgeojson('{
+	  "type": "FeatureCollection",
+	  "features": [
+	    {
+	        "type": "Polygon",
+	        "coordinates": [
+	          [
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ],
+	            [
+	              19.92623805999756,
+	              50.06921909312515
+	            ],
+	            [
+	              19.925336837768555,
+	              50.06990773105665
+	            ],
+	            [
+	              19.921152591705322,
+	              50.071353838526875
+	            ],
+	            [
+	              19.915573596954346,
+	              50.07293762048441
+	            ],
+	            [
+	              19.914522171020508,
+	              50.071188571308745
+	            ],
+	            [
+	              19.913620948791504,
+	              50.06797951993012
+	            ],
+	            [
+	              19.914672374725342,
+	              50.06764896166725
+	            ],
+	            [
+	              19.918041229248047,
+	              50.06766273497367
+	            ],
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ]
+	          ]
+	        ]
+	      }
+	    }
+	  ]
+	}')
+2020-04-18 13:57:23.196 CEST [663] park_mate@park_mate ERROR:  Geometry SRID (0) does not match column SRID (4326)
+2020-04-18 13:57:23.196 CEST [663] park_mate@park_mate STATEMENT:  INSERT INTO public.parkmate_zone (id, name, price, polygon, created_at) VALUES ($1, $2, $3, $4, $5)
+2020-04-18 13:57:24.060 CEST [663] park_mate@park_mate ERROR:  Geometry SRID (0) does not match column SRID (4326)
+2020-04-18 13:57:24.060 CEST [663] park_mate@park_mate STATEMENT:  INSERT INTO public.parkmate_zone (id, name, price, polygon, created_at) VALUES ($1, $2, $3, $4, $5)
+2020-04-18 13:58:43.088 CEST [1506] park_mate@park_mate ERROR:  Input geometry has unknown (0) SRID
+2020-04-18 13:58:43.088 CEST [1506] park_mate@park_mate STATEMENT:  select st_transform(st_geomfromgeojson('
+	    {
+	        "type": "Polygon",
+	        "coordinates": [
+	          [
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ],
+	            [
+	              19.92623805999756,
+	              50.06921909312515
+	            ],
+	            [
+	              19.925336837768555,
+	              50.06990773105665
+	            ],
+	            [
+	              19.921152591705322,
+	              50.071353838526875
+	            ],
+	            [
+	              19.915573596954346,
+	              50.07293762048441
+	            ],
+	            [
+	              19.914522171020508,
+	              50.071188571308745
+	            ],
+	            [
+	              19.913620948791504,
+	              50.06797951993012
+	            ],
+	            [
+	              19.914672374725342,
+	              50.06764896166725
+	            ],
+	            [
+	              19.918041229248047,
+	              50.06766273497367
+	            ],
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ]
+	          ]
+	        ]
+	      }
+	  ]
+	}'),4326)
+2020-04-18 14:00:28.809 CEST [1506] park_mate@park_mate ERROR:  function st_astext(record) does not exist at character 24
+2020-04-18 14:00:28.809 CEST [1506] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:00:28.809 CEST [1506] park_mate@park_mate STATEMENT:  select ST_GeomFromText(ST_AsText((st_geomfromgeojson('
+	    {
+	        "type": "Polygon",
+	        "coordinates": [
+	          [
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ],
+	            [
+	              19.92623805999756,
+	              50.06921909312515
+	            ],
+	            [
+	              19.925336837768555,
+	              50.06990773105665
+	            ],
+	            [
+	              19.921152591705322,
+	              50.071353838526875
+	            ],
+	            [
+	              19.915573596954346,
+	              50.07293762048441
+	            ],
+	            [
+	              19.914522171020508,
+	              50.071188571308745
+	            ],
+	            [
+	              19.913620948791504,
+	              50.06797951993012
+	            ],
+	            [
+	              19.914672374725342,
+	              50.06764896166725
+	            ],
+	            [
+	              19.918041229248047,
+	              50.06766273497367
+	            ],
+	            [
+	              19.924328327178955,
+	              50.066023683737036
+	            ]
+	          ]
+	        ]
+	      }
+	  ]
+	}'),4326)))
+2020-04-18 14:01:16.913 CEST [663] park_mate@park_mate ERROR:  null value in column "created_at" violates not-null constraint
+2020-04-18 14:01:16.913 CEST [663] park_mate@park_mate DETAIL:  Failing row contains (1, pierwsza, 32, 0103000020E6100000010000000A0000000D0000C8A0EC3340B834CD76730849..., null).
+2020-04-18 14:01:16.913 CEST [663] park_mate@park_mate STATEMENT:  INSERT INTO public.parkmate_zone (id, name, price, polygon, created_at) VALUES ($1, $2, $3, $4, $5)
+2020-04-18 14:42:51.160 CEST [1481] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:43:45.666 CEST [1640] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:44:26.441 CEST [1668] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:47:57.215 CEST [1683] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:48:14.336 CEST [1703] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:53:22.409 CEST [1709] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:53:53.626 CEST [1727] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:53:57.169 CEST [1738] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:55:10.441 CEST [1744] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:55:22.718 CEST [1753] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:55:29.887 CEST [1768] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:55:33.371 CEST [1778] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:55:47.264 CEST [1784] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:56:07.842 CEST [1795] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:56:25.315 CEST [1805] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:56:26.767 CEST [1814] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:56:26.767 CEST [1814] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:56:26.767 CEST [1814] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:56:27.867 CEST [1815] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:56:27.867 CEST [1815] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:56:27.867 CEST [1815] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:56:50.633 CEST [1717] park_mate@park_mate ERROR:  cannot cast type record to json at character 26
+2020-04-18 14:56:50.633 CEST [1717] park_mate@park_mate STATEMENT:  SELECT (id, name, price) :: json from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:56:52.531 CEST [1717] park_mate@park_mate ERROR:  cannot cast type record to json at character 26
+2020-04-18 14:56:52.531 CEST [1717] park_mate@park_mate STATEMENT:  SELECT (id, name, price) :: json from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:57:13.898 CEST [1717] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 9
+2020-04-18 14:57:13.898 CEST [1717] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:57:13.898 CEST [1717] park_mate@park_mate STATEMENT:  SELECT  to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:57:14.540 CEST [1717] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 9
+2020-04-18 14:57:14.540 CEST [1717] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:57:14.540 CEST [1717] park_mate@park_mate STATEMENT:  SELECT  to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:57:14.934 CEST [1717] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 9
+2020-04-18 14:57:14.934 CEST [1717] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:57:14.934 CEST [1717] park_mate@park_mate STATEMENT:  SELECT  to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:57:15.145 CEST [1717] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 9
+2020-04-18 14:57:15.145 CEST [1717] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:57:15.145 CEST [1717] park_mate@park_mate STATEMENT:  SELECT  to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:57:15.313 CEST [1717] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 9
+2020-04-18 14:57:15.313 CEST [1717] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:57:15.313 CEST [1717] park_mate@park_mate STATEMENT:  SELECT  to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:57:15.493 CEST [1717] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 9
+2020-04-18 14:57:15.493 CEST [1717] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:57:15.493 CEST [1717] park_mate@park_mate STATEMENT:  SELECT  to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:57:15.674 CEST [1717] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 9
+2020-04-18 14:57:15.674 CEST [1717] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:57:15.674 CEST [1717] park_mate@park_mate STATEMENT:  SELECT  to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:02.128 CEST [1819] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:58:02.128 CEST [1819] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:58:02.128 CEST [1819] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:03.060 CEST [1820] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:58:03.060 CEST [1820] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:58:03.060 CEST [1820] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:03.831 CEST [1821] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:58:03.831 CEST [1821] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:58:03.831 CEST [1821] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:04.475 CEST [1822] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:58:04.475 CEST [1822] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:58:04.475 CEST [1822] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:05.104 CEST [1823] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:58:05.104 CEST [1823] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:58:05.104 CEST [1823] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:05.696 CEST [1824] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:58:05.696 CEST [1824] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:58:05.696 CEST [1824] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:06.196 CEST [1825] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:58:06.196 CEST [1825] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:58:06.196 CEST [1825] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:06.824 CEST [1826] park_mate@park_mate ERROR:  function to_json(integer, character varying, integer) does not exist at character 8
+2020-04-18 14:58:06.824 CEST [1826] park_mate@park_mate HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+2020-04-18 14:58:06.824 CEST [1826] park_mate@park_mate STATEMENT:  SELECT to_json(id, name, price) from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:10.916 CEST [1812] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:58:31.658 CEST [1832] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:58:42.342 CEST [1841] park_mate@park_mate ERROR:  syntax error at or near "to" at character 8
+2020-04-18 14:58:42.342 CEST [1841] park_mate@park_mate STATEMENT:  SELECT to id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:43.334 CEST [1842] park_mate@park_mate ERROR:  syntax error at or near "to" at character 8
+2020-04-18 14:58:43.334 CEST [1842] park_mate@park_mate STATEMENT:  SELECT to id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:44.108 CEST [1843] park_mate@park_mate ERROR:  syntax error at or near "to" at character 8
+2020-04-18 14:58:44.108 CEST [1843] park_mate@park_mate STATEMENT:  SELECT to id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:47.609 CEST [1844] park_mate@park_mate ERROR:  syntax error at or near "to" at character 8
+2020-04-18 14:58:47.609 CEST [1844] park_mate@park_mate STATEMENT:  SELECT to id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(19.93216037750244 50.07826700687942 )', 4326))
+2020-04-18 14:58:47.908 CEST [1839] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:58:58.601 CEST [1850] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 14:59:17.894 CEST [1863] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 15:00:38.630 CEST [1872] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 15:00:40.783 CEST [1885] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-04-18 15:00:40.783 CEST [1885] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-04-18 15:00:41.919 CEST [1886] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-04-18 15:00:41.919 CEST [1886] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-04-18 15:00:42.846 CEST [1887] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-04-18 15:00:42.846 CEST [1887] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-04-18 15:00:43.416 CEST [1888] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-04-18 15:00:43.416 CEST [1888] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-04-18 15:02:25.126 CEST [1883] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 15:02:34.131 CEST [1900] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-04-18 15:02:34.131 CEST [1900] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-04-18 15:02:50.944 CEST [1898] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 15:03:24.892 CEST [1907] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-18 15:03:27.796 CEST [1916] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-04-18 15:03:27.796 CEST [1916] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-04-18 15:03:28.712 CEST [1917] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-04-18 15:03:28.712 CEST [1917] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-04-18 15:03:29.280 CEST [1918] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-04-18 15:03:29.280 CEST [1918] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-04-19 01:57:36.415 CEST [1506] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-19 01:57:36.422 CEST [1717] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-19 01:57:36.497 CEST [652] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-04-21 12:23:29.116 CEST [1914] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 11:49:53.905 CEST [87] LOG:  listening on IPv6 address "::1", port 5432
+2020-05-07 11:49:53.906 CEST [87] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-05-07 11:49:53.906 CEST [87] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-05-07 11:49:53.906 CEST [87] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-05-07 11:49:53.923 CEST [87] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2020-05-07 11:49:54.117 CEST [88] LOG:  database system was interrupted; last known up at 2020-04-18 14:45:45 CEST
+2020-05-07 11:49:54.119 CEST [88] WARNING:  could not flush dirty data: Function not implemented
+2020-05-07 11:49:58.804 CEST [88] LOG:  database system was not properly shut down; automatic recovery in progress
+2020-05-07 11:49:58.808 CEST [88] LOG:  redo starts at 0/29C2D00
+2020-05-07 11:49:58.808 CEST [88] LOG:  invalid record length at 0/29C2DE0: wanted 24, got 0
+2020-05-07 11:49:58.808 CEST [88] LOG:  redo done at 0/29C2DA8
+2020-05-07 11:49:58.896 CEST [87] LOG:  database system is ready to accept connections
+2020-05-07 11:49:59.537 CEST [95] [unknown]@[unknown] LOG:  incomplete startup packet
+2020-05-07 11:54:59.468 CEST [89] WARNING:  could not flush dirty data: Function not implemented
+2020-05-07 12:00:20.885 CEST [116] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:00:36.636 CEST [157] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:00:45.274 CEST [164] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:03:00.245 CEST [170] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:03:34.283 CEST [198] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:03:46.648 CEST [208] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:03:53.254 CEST [216] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:04:29.796 CEST [222] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:05:14.371 CEST [232] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:05:58.823 CEST [241] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:06:27.935 CEST [250] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:08:10.002 CEST [260] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:09:05.097 CEST [284] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:11:27.066 CEST [302] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:12:40.486 CEST [318] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:12:50.887 CEST [330] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:13:01.205 CEST [338] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:13:51.651 CEST [345] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:13:58.759 CEST [378] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:25:28.449 CEST [388] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:25:39.062 CEST [439] park_mate@park_mate ERROR:  null value in column "ticket_id" violates not-null constraint
+2020-05-07 12:25:39.062 CEST [439] park_mate@park_mate DETAIL:  Failing row contains (5, SCI 3667C, f, 2020-05-07 10:25:39.060213+00, null, 2).
+2020-05-07 12:25:39.062 CEST [439] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_validatedticket" ("user_id", "plate", "ticket_id", "valid", "created_at") VALUES (2, 'SCI 3667C', NULL, false, '2020-05-07T10:25:39.060213+00:00'::timestamptz) RETURNING "parkmate_validatedticket"."id"
+2020-05-07 12:27:01.716 CEST [477] park_mate@park_mate ERROR:  null value in column "ticket_id" violates not-null constraint
+2020-05-07 12:27:01.716 CEST [477] park_mate@park_mate DETAIL:  Failing row contains (6, CI 3667C, f, 2020-05-07 10:27:01.715396+00, null, 2).
+2020-05-07 12:27:01.716 CEST [477] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_validatedticket" ("user_id", "plate", "ticket_id", "valid", "created_at") VALUES (2, 'CI 3667C', NULL, false, '2020-05-07T10:27:01.715396+00:00'::timestamptz) RETURNING "parkmate_validatedticket"."id"
+2020-05-07 12:33:50.692 CEST [495] park_mate@park_mate ERROR:  null value in column "ticket_id" violates not-null constraint
+2020-05-07 12:33:50.692 CEST [495] park_mate@park_mate DETAIL:  Failing row contains (8, CI 3667C, f, 2020-05-07 10:33:50.691492+00, null, 2).
+2020-05-07 12:33:50.692 CEST [495] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_validatedticket" ("user_id", "plate", "ticket_id", "valid", "created_at") VALUES (2, 'CI 3667C', NULL, false, '2020-05-07T10:33:50.691492+00:00'::timestamptz) RETURNING "parkmate_validatedticket"."id"
+2020-05-07 12:33:53.488 CEST [496] park_mate@park_mate ERROR:  null value in column "ticket_id" violates not-null constraint
+2020-05-07 12:33:53.488 CEST [496] park_mate@park_mate DETAIL:  Failing row contains (9, CI 3667C, f, 2020-05-07 10:33:53.488017+00, null, 2).
+2020-05-07 12:33:53.488 CEST [496] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_validatedticket" ("user_id", "plate", "ticket_id", "valid", "created_at") VALUES (2, 'CI 3667C', NULL, false, '2020-05-07T10:33:53.488017+00:00'::timestamptz) RETURNING "parkmate_validatedticket"."id"
+2020-05-07 12:39:02.116 CEST [519] park_mate@park_mate ERROR:  null value in column "ticket_id" violates not-null constraint
+2020-05-07 12:39:02.116 CEST [519] park_mate@park_mate DETAIL:  Failing row contains (11, SC 3667C, f, 2020-05-07 10:39:02.115882+00, null, 2).
+2020-05-07 12:39:02.116 CEST [519] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_validatedticket" ("user_id", "plate", "ticket_id", "valid", "created_at") VALUES (2, 'SC 3667C', NULL, false, '2020-05-07T10:39:02.115882+00:00'::timestamptz) RETURNING "parkmate_validatedticket"."id"
+2020-05-07 12:42:08.394 CEST [536] park_mate@park_mate ERROR:  null value in column "ticket_id" violates not-null constraint
+2020-05-07 12:42:08.394 CEST [536] park_mate@park_mate DETAIL:  Failing row contains (12, test, f, 2020-05-07 10:42:08.393891+00, null, 2).
+2020-05-07 12:42:08.394 CEST [536] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_validatedticket" ("user_id", "plate", "ticket_id", "valid", "created_at") VALUES (2, 'test', NULL, false, '2020-05-07T10:42:08.393891+00:00'::timestamptz) RETURNING "parkmate_validatedticket"."id"
+2020-05-07 12:42:26.642 CEST [537] park_mate@park_mate ERROR:  null value in column "ticket_id" violates not-null constraint
+2020-05-07 12:42:26.642 CEST [537] park_mate@park_mate DETAIL:  Failing row contains (13, twst, f, 2020-05-07 10:42:26.642429+00, null, 2).
+2020-05-07 12:42:26.642 CEST [537] park_mate@park_mate STATEMENT:  INSERT INTO "parkmate_validatedticket" ("user_id", "plate", "ticket_id", "valid", "created_at") VALUES (2, 'twst', NULL, false, '2020-05-07T10:42:26.642429+00:00'::timestamptz) RETURNING "parkmate_validatedticket"."id"
+2020-05-07 12:43:09.889 CEST [436] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 12:43:14.778 CEST [545] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 14:41:51.144 CEST [601] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 14:42:19.283 CEST [890] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 15:57:44.822 CEST [1029] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 15:59:49.299 CEST [1087] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:00:02.835 CEST [1099] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:00:11.210 CEST [1108] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:00:17.937 CEST [1116] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:21:55.080 CEST [1236] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:21:55.080 CEST [1236] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:22:41.976 CEST [1125] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:22:44.373 CEST [1246] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:22:44.373 CEST [1246] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:24:37.885 CEST [1244] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:24:39.583 CEST [1257] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:24:39.583 CEST [1257] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:24:40.645 CEST [1258] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:24:40.645 CEST [1258] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:24:41.411 CEST [1259] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:24:41.411 CEST [1259] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:24:42.070 CEST [1261] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:24:42.070 CEST [1261] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:24:42.614 CEST [1262] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:24:42.614 CEST [1262] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:24:43.263 CEST [1263] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:24:43.263 CEST [1263] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:24:44.064 CEST [1264] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:24:44.064 CEST [1264] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:24:46.231 CEST [1265] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:24:46.231 CEST [1265] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT( '19.93216037750244' '50.07826700687942' )', 4326))
+2020-05-07 16:24:53.570 CEST [1255] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:24:54.950 CEST [1273] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:24:54.950 CEST [1273] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:24:56.193 CEST [1274] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:24:56.193 CEST [1274] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:25:15.448 CEST [1271] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:25:17.514 CEST [1282] park_mate@park_mate ERROR:  syntax error at or near "50.07826700687942" at character 111
+2020-05-07 16:25:17.514 CEST [1282] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(43 '50.07826700687942')', 4326))
+2020-05-07 16:25:19.525 CEST [1283] park_mate@park_mate ERROR:  syntax error at or near "50.07826700687942" at character 111
+2020-05-07 16:25:19.525 CEST [1283] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(43 '50.07826700687942')', 4326))
+2020-05-07 16:25:28.835 CEST [1280] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:26:04.288 CEST [1290] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:26:08.145 CEST [1297] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:27:02.476 CEST [1303] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:27:05.482 CEST [1316] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:27:05.482 CEST [1316] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:27:06.373 CEST [1317] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:27:06.373 CEST [1317] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:27:07.010 CEST [1318] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:27:07.010 CEST [1318] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:27:07.553 CEST [1319] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:27:07.553 CEST [1319] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:27:08.298 CEST [1320] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:27:08.298 CEST [1320] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:27:23.302 CEST [1314] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:27:25.873 CEST [1328] park_mate@park_mate ERROR:  column "POINT('19.93216037750244' '50.07826700687942')" does not exist at character 100
+2020-05-07 16:27:25.873 CEST [1328] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText("POINT('19.93216037750244' '50.07826700687942')", 4326))
+2020-05-07 16:27:26.852 CEST [1330] park_mate@park_mate ERROR:  column "POINT('19.93216037750244' '50.07826700687942')" does not exist at character 100
+2020-05-07 16:27:26.852 CEST [1330] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText("POINT('19.93216037750244' '50.07826700687942')", 4326))
+2020-05-07 16:27:27.549 CEST [1331] park_mate@park_mate ERROR:  column "POINT('19.93216037750244' '50.07826700687942')" does not exist at character 100
+2020-05-07 16:27:27.549 CEST [1331] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText("POINT('19.93216037750244' '50.07826700687942')", 4326))
+2020-05-07 16:27:47.405 CEST [1326] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:27:49.437 CEST [1340] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 109
+2020-05-07 16:27:49.437 CEST [1340] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(\'19.93216037750244'\ \'50.07826700687942'\)', 4326))
+2020-05-07 16:28:52.260 CEST [1338] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:29:32.919 CEST [1348] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:29:36.037 CEST [1357] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:29:36.037 CEST [1357] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:29:37.838 CEST [1358] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:29:37.838 CEST [1358] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:29:56.606 CEST [1355] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:29:59.691 CEST [1367] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:29:59.691 CEST [1367] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:30:00.794 CEST [1368] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:30:00.794 CEST [1368] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:30:23.830 CEST [1365] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:30:25.395 CEST [1376] park_mate@park_mate ERROR:  syntax error at or near "50.07826700687942" at character 111
+2020-05-07 16:30:25.395 CEST [1376] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(52 '50.07826700687942')', 4326))
+2020-05-07 16:30:26.993 CEST [1378] park_mate@park_mate ERROR:  syntax error at or near "50.07826700687942" at character 111
+2020-05-07 16:30:26.993 CEST [1378] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(52 '50.07826700687942')', 4326))
+2020-05-07 16:30:35.854 CEST [1374] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:31:25.443 CEST [1384] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:31:27.552 CEST [1394] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:31:27.552 CEST [1394] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:31:29.499 CEST [1395] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:31:29.499 CEST [1395] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:31:29.947 CEST [1396] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:31:29.947 CEST [1396] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:31:42.740 CEST [1392] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:31:45.360 CEST [1405] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:31:45.360 CEST [1405] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:31:46.588 CEST [1406] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:31:46.588 CEST [1406] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:31:56.181 CEST [1403] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:31:57.578 CEST [1414] park_mate@park_mate ERROR:  syntax error at or near "3123" at character 108
+2020-05-07 16:31:57.578 CEST [1414] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('3123' '50.07826700687942')', 4326))
+2020-05-07 16:31:59.006 CEST [1415] park_mate@park_mate ERROR:  syntax error at or near "3123" at character 108
+2020-05-07 16:31:59.006 CEST [1415] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('3123' '50.07826700687942')', 4326))
+2020-05-07 16:31:59.768 CEST [1416] park_mate@park_mate ERROR:  syntax error at or near "3123" at character 108
+2020-05-07 16:31:59.768 CEST [1416] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('3123' '50.07826700687942')', 4326))
+2020-05-07 16:32:00.222 CEST [1417] park_mate@park_mate ERROR:  syntax error at or near "3123" at character 108
+2020-05-07 16:32:00.222 CEST [1417] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('3123' '50.07826700687942')', 4326))
+2020-05-07 16:32:32.170 CEST [1412] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:32:49.534 CEST [1424] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:33:20.265 CEST [1431] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:42:42.853 CEST [1443] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:44:31.846 CEST [1485] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:44:34.690 CEST [1501] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:34.690 CEST [1501] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:34.690 CEST [1501] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:40.847 CEST [1502] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:40.847 CEST [1502] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:40.847 CEST [1502] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:40.861 CEST [1507] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:40.861 CEST [1507] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:40.861 CEST [1507] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:40.876 CEST [1508] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:40.876 CEST [1508] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:40.876 CEST [1508] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:40.884 CEST [1509] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:40.884 CEST [1509] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:40.884 CEST [1509] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:40.895 CEST [1510] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:40.895 CEST [1510] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:40.895 CEST [1510] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:40.981 CEST [1511] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:40.981 CEST [1511] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:40.981 CEST [1511] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:40.992 CEST [1512] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:40.992 CEST [1512] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:40.992 CEST [1512] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:41.055 CEST [1513] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:41.055 CEST [1513] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:41.055 CEST [1513] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:41.067 CEST [1514] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:41.067 CEST [1514] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:41.067 CEST [1514] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:41.077 CEST [1515] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:41.077 CEST [1515] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:41.077 CEST [1515] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:41.577 CEST [1516] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:41.577 CEST [1516] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:41.577 CEST [1516] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:50.784 CEST [1518] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:50.784 CEST [1518] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:50.784 CEST [1518] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:50.793 CEST [1519] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:50.793 CEST [1519] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:50.793 CEST [1519] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:50.803 CEST [1520] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:50.803 CEST [1520] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:50.803 CEST [1520] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:50.815 CEST [1521] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:50.815 CEST [1521] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:50.815 CEST [1521] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:50.824 CEST [1522] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:50.824 CEST [1522] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:50.824 CEST [1522] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:50.912 CEST [1523] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:50.912 CEST [1523] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:50.912 CEST [1523] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:50.998 CEST [1524] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:50.998 CEST [1524] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:50.998 CEST [1524] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:51.014 CEST [1525] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:51.014 CEST [1525] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:51.014 CEST [1525] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:51.022 CEST [1526] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:51.022 CEST [1526] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:51.022 CEST [1526] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:51.028 CEST [1527] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:51.028 CEST [1527] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:51.028 CEST [1527] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:44:51.127 CEST [1528] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:44:51.127 CEST [1528] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:44:51.127 CEST [1528] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:00.807 CEST [1529] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:00.807 CEST [1529] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:00.807 CEST [1529] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:00.822 CEST [1530] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:00.822 CEST [1530] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:00.822 CEST [1530] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:00.833 CEST [1531] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:00.833 CEST [1531] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:00.833 CEST [1531] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:00.844 CEST [1532] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:00.844 CEST [1532] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:00.844 CEST [1532] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:00.855 CEST [1533] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:00.855 CEST [1533] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:00.855 CEST [1533] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:00.929 CEST [1534] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:00.929 CEST [1534] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:00.929 CEST [1534] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:01.027 CEST [1535] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:01.027 CEST [1535] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:01.027 CEST [1535] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:01.036 CEST [1536] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:01.036 CEST [1536] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:01.036 CEST [1536] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:01.054 CEST [1537] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:01.054 CEST [1537] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:01.054 CEST [1537] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:01.056 CEST [1538] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:01.056 CEST [1538] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:01.056 CEST [1538] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:01.076 CEST [1539] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:01.076 CEST [1539] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:01.076 CEST [1539] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:10.864 CEST [1540] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:10.864 CEST [1540] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:10.864 CEST [1540] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:10.878 CEST [1541] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:10.878 CEST [1541] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:10.878 CEST [1541] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:10.885 CEST [1542] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:10.885 CEST [1542] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:10.885 CEST [1542] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:10.898 CEST [1543] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:10.898 CEST [1543] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:10.898 CEST [1543] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:10.907 CEST [1544] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:10.907 CEST [1544] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:10.907 CEST [1544] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:11.218 CEST [1545] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:11.218 CEST [1545] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:11.218 CEST [1545] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:11.241 CEST [1546] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:11.241 CEST [1546] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:11.241 CEST [1546] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:11.308 CEST [1547] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:11.308 CEST [1547] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:11.308 CEST [1547] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:11.378 CEST [1548] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:11.378 CEST [1548] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:11.378 CEST [1548] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:11.475 CEST [1549] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:11.475 CEST [1549] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:11.475 CEST [1549] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:11.484 CEST [1550] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:11.484 CEST [1550] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:11.484 CEST [1550] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:21.496 CEST [1553] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:21.496 CEST [1553] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:21.496 CEST [1553] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:45:25.472 CEST [1554] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:45:25.472 CEST [1554] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:45:25.472 CEST [1554] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:48:11.803 CEST [1563] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:48:11.803 CEST [1563] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:48:11.803 CEST [1563] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:48:26.689 CEST [1499] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:48:30.375 CEST [1572] park_mate@park_mate ERROR:  parse error - invalid geometry
+2020-05-07 16:48:30.375 CEST [1572] park_mate@park_mate HINT:  "POINT(NU" <-- parse error at position 8 within geometry
+2020-05-07 16:48:30.375 CEST [1572] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT(NULL NULL)', 4326))
+2020-05-07 16:48:57.104 CEST [1570] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:51:19.998 CEST [1579] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:51:46.643 CEST [1596] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:51:46.643 CEST [1596] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:51:49.013 CEST [1597] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:51:49.013 CEST [1597] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:52:00.323 CEST [1598] park_mate@park_mate ERROR:  syntax error at or near "19.93216037750244" at character 108
+2020-05-07 16:52:00.323 CEST [1598] park_mate@park_mate STATEMENT:  SELECT id, name, price from parkmate_zone where st_contains(parkmate_zone.polygon, ST_GeomFromText('POINT('19.93216037750244' '50.07826700687942')', 4326))
+2020-05-07 16:54:23.685 CEST [1592] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:54:43.003 CEST [1613] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:54:55.270 CEST [1622] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:55:12.249 CEST [1628] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:55:27.470 CEST [1638] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 16:55:52.521 CEST [1645] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:00:41.001 CEST [1654] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:03:17.290 CEST [1701] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:03:25.905 CEST [1731] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:03:37.959 CEST [1740] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:04:15.276 CEST [1750] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:04:23.918 CEST [1759] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:06:09.101 CEST [1768] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:07:47.725 CEST [1780] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:07:51.167 CEST [1795] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:08:06.578 CEST [1801] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:38:58.650 CEST [1807] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:39:34.712 CEST [2898] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:39:59.926 CEST [2943] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:43:59.283 CEST [2990] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 17:44:11.286 CEST [3362] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-07 18:13:48.476 CEST [3373] park_mate@park_mate LOG:  could not receive data from client: Connection reset by peer
+2020-05-21 11:30:03.765 CEST [68] LOG:  listening on IPv6 address "::1", port 5432
+2020-05-21 11:30:03.766 CEST [68] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-05-21 11:30:03.766 CEST [68] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-05-21 11:30:03.766 CEST [68] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-05-21 11:30:03.780 CEST [68] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2020-05-21 11:30:04.201 CEST [69] LOG:  database system was interrupted; last known up at 2020-05-07 17:45:14 CEST
+2020-05-21 11:30:04.204 CEST [69] WARNING:  could not flush dirty data: Function not implemented
+2020-05-21 11:30:12.179 CEST [69] LOG:  database system was not properly shut down; automatic recovery in progress
+2020-05-21 11:30:12.187 CEST [69] LOG:  redo starts at 0/29E7DB8
+2020-05-21 11:30:12.187 CEST [69] LOG:  invalid record length at 0/29E7E98: wanted 24, got 0
+2020-05-21 11:30:12.187 CEST [69] LOG:  redo done at 0/29E7E60
+2020-05-21 11:30:12.307 CEST [68] LOG:  database system is ready to accept connections
+2020-05-21 11:30:12.876 CEST [76] [unknown]@[unknown] LOG:  incomplete startup packet
